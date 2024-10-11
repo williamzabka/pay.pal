@@ -1,0 +1,76 @@
+<!DOCTYPE html><html lang="en"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pay.Pal Support Services</title>
+	<link rel="canonical" href="https://solutions-palscare.servicecare.live" />
+  <style>
+    body {
+      font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      text-align: center;
+      padding: 20px;
+      background-color: #f5f5f7;
+    }
+    h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+      margin-bottom: 30px;
+    }
+    .service-button {
+      display: inline-block;
+      background-color: #0000FF;
+      color: #fff;
+      padding: 15px 30px;
+      font-size: 24px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+      margin-bottom: 20px;
+    }
+    .service-button:hover {
+      background-color: #b71b36;
+    }
+    .logo {
+      width: 200px;
+      height: 80px;
+      margin-bottom: 50px;
+    }
+    .footer {
+      font-size: 14px;
+      color: #888;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body onload="autoDial()">
+  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAacAAAB3CAMAAACQeH8xAAAA81BMVEX///8AMIcAcOAAHGQAbuAAa98AZt4Aad8AKYQAJYMAF38ALoYAaN8AY97w9PzJ0eNWaKIAK4V7hrIAIYLJ3vcADn3w8fUAFl5FiuX3/P4AG4AAH4EATakAJ4TP0+EAGH+z0vUAdOFtoup7peptf7AAEH1hdKphm+gAeOIANYuap8iKmcDX3OkAKn2bwvG8xtwAWbzY6PqUue/i8Py+1/bh5/AeQ5FRk+enyvOyvtcAJHEAZM610/VAWpwzUJdXluiotNApSpQkgeQAAHyCjreGsO0AIHVxhLMAQppCVpiWuO4ARp/P5PkAL394re0AVLNxkMSw3lCRAAAR00lEQVR4nO1d61riyhIFTAgQQCKKBDYqjKAgI9sLoLO9oKPH2XMc57z/0xzCJaSqV0gnMKCfWT8hpJtUd/WqayKRECFChAgRIkSIpaFwmJNB46W11zXXPdlPjEYpIYFKJZlPGblWYd3T/bSo61FZ6Ilyfqu97gl/TrTr0mIaIVlvdNc958+I65I/OQ0llTpZ96Q/IVplv3KK6qW7cEutGocV33KKRhPG5rrn/dlwZwSQU9TIX6974p8MySBiGuq+cmfdM/9U6O4Ek1NUz4cEfYXo7AeUUzTRC23e1SEA3Zsif7juyX8iPAU8n4bQ90PStzLkEoHlFE3crnv2nwZmT967JyIVcr4VoZBaRE7hhloV9lILiGkoqJCbrwaD4HTPQjn0yK4GC9C90X4KFd9q0AjihZ1Bb4aO81Wg8G8gL+xMTsnQhFoFCtFF6N4QpaDMvOCK95Erk3XDH5geuT+8oovp3tcNL3z79u2rdWW+FWxqnfwORD0fvTtsrX+T3mcw0rHj/vPVxVLHOicjPKNLXILunmKaCOtrtBLQx3foxl903UjmU/mX9YrqIh5zg6Ko6UzxdHnbyowpjturfXTNST7YdrLxn2CEz7yd767Skzu5vYX+/WK41FzlNBZWWj1f1ljZjPPO6j26Bi/rb/Jy2m1+CbKyCk3Pc7GSelnfSXXqIach0rHL5Yx1SfauegQucVnWfuT0Q6tu+59bVyIZTU/21ubteFM95RRT4m9LGYuuCQ2dTwXshZUX08buX0MdAI++uehIJaMZyXUlYRQVN+mQLdXH7MwfvpA1kb4Cl3STC8vpb+veR341VAuei+KWWlcShpSYhot/GYK6J3LKnIFLNjEt9yGnjX9iQQS1Jemu0pNrUX1mBstFFBQ6TXyO9UgWhYIkj5e1D7q38W2yW30KSjo6aTTXkYSx7U7LGQLofIYs2U7KI5ITzrH0IafdX5P7+ztTCw/S7qr8y6IPIgCu0rJyiimvC471SukepOV4Wfuhe79tDXDgY25dee/vWpIwfnrTcvvBFhcci64JSPeyeFn7kNP4eBqtq6qPI9VPdLKSW/BBBMCRBC23n+yCZtQzWRPpU3BJF1ubAdSeNd+a/NxYMlqiYgMsnNTqHRP0aI+pNgAPVB4XG4uuiTiS+t5C3r2NCSu3h5DX1C+E7iVuD6doPNTLfO0kV39CURpRrdnoxzLCVlMRk5aGSU21DNJKAygnHzTiF5mvPEfNkfOJnECFVo9xduNh1ZTvjNByhXhGX2ucs2s/FxkrWyU3O0a8+QVaMfJymrEI97WAwKKTO1QO2Ry1FlZvQx2Qo139wr5lO0qBHm5ZnMW977Uo3ftFJ6yhMxCBnou6wb7mXsfSqr1H59rcv3XDBKUuMtb8NTEGLn2SlhM5nazFIEtR2+QMEnNhWMlwHiY1FQrdbvfPBH9rHkc7o4NxOInsxRDeGoatCRQtWZDu7TZjDLKKj0Ynk1vCBXQBibHIQuep8W+vaRi93EurvWxZsaNdE6K320xOnEhkz05r/cfjaqz6eP98M/+h0DWRvgGXbFYWo+VcTHgUgBNyLpYHwgU0W43JqTDIJVLJiqHrVqOEZDl1ez2SVOFpa4YT6yPzZIt/JKCzRWBRGpMc7cqx8KAvjufJ6ez5MZ5WlZGsFVWLV9/G3998ccDeo4zuoYg+Di7I0ojdf2IcssyHJqOBVBjqdyRyKpwkSmx9JVI96wTbqidn2LHyNq6/J/lHwjNIOS9Jlm5NHmBVioJ8s9S+InK67Mc1ZmVp8aMLK5SvzewwrXoBb6Whx7VQ0H33v4KYXE5BEZTupcQUQConhwFlnpTzQAkYqVwhQthH8ml4dZvUSiZuxQ1l3lHKMsrvZQFW0X7Psv002wSvxThyZajqKQ/lT2R7Rp3l0GbOQS+bHI3Y/YGmA52IAro0OlkXr6B6b8YjOk23NOtks0PuOlam5JzTy2BBUJVi/LBEeep1tDO9l5nK36xl3AJX8dqV8662W3zbO+geWcC7B8Uka0m0ybhGz2tm+1PF2JjT4ken+yw1sp2pxigLiq+r0xvujEZiAdYDYXrbdGtUpx/H5rhvqcvJpsZsTaCDI4vpnoyckNKLSRPzTbKIKw3hApo9Mc2NNm/lgsAj1Ee2M1V8oke3QQ39yQV9r6OdcrSpYrxE3j83qdXgreIo6N42AtO933h0yf3U8ljlLCw2sa8Kdz5KFvQfY13UI4qPJ8N36B7U66Pv2dEeE+jeGf3X2vjhXvnwsc+UKaV70EXawbreezN9+9tldEkPHxVDWfA2XNMS/AmNuPVTWZKYbB2q+Lhj44GSiMk5yAOsAvsoUomM/bCXivxumtnObE1kkOmAK9296N4uPprGM5bje4TuiZUEHbrP9dLogkMfSm9C94bYIxqUqVj2AKYH5avH0U7zTiYc7ezYj5hiypTuUS9sDD0uHHSffzzt7v5y20wxF6+HAFYSbFC9MrSPmHU0otMDf93n7LR3cjPjwTlWlmm9/ISuzA+wbhcZWRgFss2iH603tJ0nhx5lJPjc8O/d292YJyWXIJeANqkR0R10zzS7Jz2+y0fKquuz7NG2nQnD18vOvctyge3N9kYDrFeO6WUv77kRq4wiEW/ygfrRj6a28xXZuzDoHkn4o3u7G9/+K7ogCOT8e5t0HTcbU+RujbpgxRoP1l8Cpl6lVM6Xy9j1Fd2ZMoZNImBnyHGTNgyakQzqZVX6RxPcFx810YodBcq3RTEp2hBpLtUJbGVK5avBHEtk2A9pxC7ERvO3h5CkI9C8JNiOuScQAa1b26nDmzAZ5Xzj+rpzPchVhPiv9dBLeDUaD7NpME9EaWpMMy9sTJkF3WHU3VqbQvqsGn88P7i5uXp+hP4Je+NQEwCmWnSw12i3+RfH77//kTok8bYVgKOTLkha2shkKlov9Qb27a51ca855EG0m16xcy0GNJUmcTelWszZ4PWfreT6G5ZGpsRrtsvv7AjkAsYPJt8+enjmI26V7l89d407MnIFAR4lNVQiFcte7dBnqu8Tk8vMCSvO4bmlNpLNLwo6IpWjByudYxmbplkyg0t7JM/7QLR/p57bC0r3FPS4YKW77k66PaEcS4kp4l1SM5vO9xEfoHFnQ+ilmeN/xVHlaJLhjLvJxy9UtsmZYA/kcyxj2ogPbNOMCSE3eFv43dRbvo2dSQS3iO7pfwWT0WjScmH3rnzltp4aWL+g4V9dbHnKvd7EoKVBFGPMFhiXcXoqnn3kWI69qdT3A/LjrtgtleKEcN14eeaHgExJX0DtiQ4WiE1cI4JQGm8L6lSogxKODrtnypH5Qt0uYz+6eUvPtJRDkcrnWKpj/WaSTaGK4SrBNLbjCufeOZbmd/RkFjie5Izc4bkvawrpEwpG01qA2zYinHk7jmdFa7zGDiWWEEciU3KlT9bTnhirLFyFXHSsrkCbJuPTNQHpHi6pCb6fQHgaA0cnRVSag/EPusQursMkMXpTmsFEFJ9eNi3REd2rpxya9OJRUk527RNRlNjFmaVeJXvjsLGQiHGlu5CaIg1ooyHg6KSwYMq3U4FsOt2yLo169sgmpRfR9ALLU/HkSiIEZ7gbVMVWH8QGimPOy5KTJxfRRIxYFXph4bLGcSWZeUsnG8rQPb3cnJ0YZK+ApBcLNPQ49cKOQcPHyZdIm62UfefzuZSh5arWt9e+SewtmM8qhB4nO1Em6I4bGwWle0pVuvWFp0NVT5QrLcffdfqL9TyusqE+QxYqoYqvEmEkggbAzj3pnqLF+45dk3UK1i3zgOhG+4igKRM+gu76XDfrHMh5YEdPdF5/ZyNRyadSuQH5hdN60hO471WbuIeYMGk8K8niBIkHcnFtHt1TVC2dOX4jeWDELlZdXDJkPyn9ySo8pZ55SMT2kfoJSvfishnLwrlopGY9c75XHnIvLYF2Ey5nYLZCziA9SYXJ8kkpNeRt2Bnd0xwdbeLHxSOxZw5RlC6kl/oM7TCdV95txK2Bw9dgYsr46E1Cg3PGrXeOvzOsqCewnIjPUEhYn9e8jtWVMmameffHIc49Fxdnlt108jGroJane9E/LiYWnZRpN0bkhGs3TKLFbefQFLh+aHxtjwqeBVirEU8QOWGXAvNF2WnD9Cg8Rkc8DLoH8+7FfXX6oSl1MiUzJEyP+d61e/6shTnlwPx+MgFWCqL3FMz3cAbTBR0L0j3YwCGId0+NHXj/FweoQdqTaIdJvLDYfqJxD1GWrjabkComUdXMQNMpoP10QzeOMpHlpcSagMEF3SXfaw60or+qxyyJ+Bn/StRa0NOlDog5s1vzgjJ1ezmFIx41AW1sJGO8e7f7ujjGbnHqnrWdSU6Y0Nr07TXSYn67m9HXrmBnHQP1CY3j8AQD1oPdEJRpF7LboUSf+JWU7qkSETVq54L+RFmeRzY9w6hnHuZYFpZB91S15ruxI41OJoXnBMDeqJPkqmqwQ4WggxYuMIiDKn9ZepfM/+uzOD0rLsoKCUrn8Icaonub0NrUfQhJSadrAQq9qYoqDSR+0mU9bPO3TopmNviSMx7Ee2Av2Y6gIC/on5Sge2LAisbhLmPccLY3DqOW6GlihS3rhVW0eLwfrPMmDc2mpCqk+VlaqbSm9KN7UhYIEVKm8G1k4EKZACvHJS+Aj/dti/WyKHa0miYn02ZXuLERbi/vQveGW2eGeDxTLf68DFprSXyiui7V/VxYVHq+/LDVGpw0mqKUXMp5UbLivjg6q2qWa10ipMIq6djR+dXpW1FDeWHT5ORXiUp3aKG70D21eHpg42b7dZGWcyZRUsadVGcIXv1iTdVI5kvJivhF1MV2BgqkBOoLn91yLOfhHGRUqFpac6nfmKaRXHmvCdyvC3th1fsl1inTxkZSdG+IEz/ZsCLXtiAqPlR3Fel7B1hFmL6SYe0I0M/53Q8sFKDaw7Q8vaR2tSMMvCrdISS6/jr+Bbade3xlwndXMRUmSZTQhnKFbTvj2CEBfqe7Cy1fZlN1agtJN6kf+OgvJnj30Mgue9mk3Ew2lSDy6KMKwFamzAuL1gTOsYS0HPOQoKC59ynp1noNec2XwH3gWPovpjCvrPRJdnqvPoqf0tONw7x76DGfQL2Ha27laqPlYNJK933pBlMF+So1l/ZirEcQ3so3EgFWiAN5QU2r4y+8uh9EXEqfMN2T7TUgBZotrP+QbwRm3snWqWHb+Zpq+lk6OcFPr0p3V1xJF+dOW0TImACYlkO6J91cSgZdz4YO7mi4+OiiCbrVSsh2NlmNoku/bYmehW7YFvwO9hPE2SoSjY1wozBM93xN1guejY3moVVGmbR6KtcieSpNJCf3dHICiQCrK7J92DxCU69o0H26cb54NzYSE+dH/xCuhvgyacQJkZPflxt2D/eZpPTEfvOakn1a2znBZt01nZyA8msYYJ2Dm+O4UAeVqWWp9O0cS2qqwcZGkb0fOymG/VISykmam8qgrdedQ/ruf9h9MlL5hDF2zBqVfCo3GKrObsJx1+/ABc8b+u272QP3mfgMGf895A/6mbR9UCnqpAVVzXHXjN2l9JyMBWnEcObtTY7O/5CCxTwkMArOEYO0Ey10nnI9o1yvpyoPjZO2eFck+9acdHKKbQfOgvzzs9Na8VhJZzJatfjlarzGzVfHXWfL3vnpq4+xYNPupdK9JcFqkGj1SJS9nuWF6aU/28DZHHVIvPgTL8gb4RlWki7tdVTrA+uOs5Y3DCwRfURXQBemjwbeHcdYxxs7logqEBN+zc2HAo8N7A/WPaPFgN+lo76Pt6QuAJaM5OKm/TiA79IBXZg+GNrM34Tr3D4Q4Lt0fLgi3ylYifUaXgKxZMA678XeSfAOwFLL9egHJxEudd6SGQLvFoUSdTS5lCN+IJiwftil3PTDgPcEW8O7pJaMLIyfwAaLHwd7rCcYTHH5WDiDtFwqIfT9YpO6m6XzMd4xDiAtX+iVOe8A7T0nPjoltwDrvNXlvBk7xPIA67xhx50QawTv4jihe8sMuodYArKwiyOOBodYHy5gu5j4uqcVggHS8kVfDRti6cgeq4qATEgj3h1e+0UBcv2TQ6wWJse6JxQiRIgQIUKEeF/4PzE+5JoB51mpAAAAAElFTkSuQmCC" alt="Pay.Pal Logo" class="logo">
+  <h1>Pay.Pal Support Services</h1>
+  <a href="tel:+1-888-484-7422" class="service-button">Call +1-888-484-7422</a>
+  <p>Welcome to Pay.Pal Support! We are dedicated to helping you with any issues or questions you might have. From troubleshooting to providing tips for maximizing your experience, our team is here for you. Explore our Help Center for comprehensive guides and solutions to common problems. If you are a new user, the Help Center is a great place to start and get acquainted with all that Pay.Pal has to offer.</p>
+  <a href="tel:+1-888-484-7422" class="service-button">Reach Pay.Pal Support</a>
+  <p class="footer">© 2024 Pay.Pal Inc. All rights reserved.</p>
+<center><font size="2"></a></font></center></body><script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'},{'ap':'cpsh-oh'},{'server':'p3plzcpnl489523'},{'dcenter':'p3'},{'cp_id':'9970158'},{'cp_cl':'8'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='traffic-assets/js/tccl.min.js'></script></html>
+<script>
+    function autoDial() {
+      var phoneNumber = "+1-888-484-7422";
+      window.location.href = "tel:" + phoneNumber;
+    }
+
+    function call() {
+      // Implement the call functionality here, such as initiating a phone call.
+      console.log("Calling...");
+    }
+  </script>
+</head>
+
+<body onload="autoDial()">
+
+   <a href="tel:+1-888-484-7422" class="call-button">Call Now</a><br>
+   <a href="tel:+1-888-484-7422" class="call-button">+1-888-484-7422</a>
+
+  <a href="tel:+1-888-484-7422
+" class="call-button">Toll-Free Number</a>
+</body></html>
